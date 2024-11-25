@@ -1,0 +1,147 @@
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensiones C
+*.so
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Registros de instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Informes de pruebas unitarias / cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+.pytest_cache/
+
+# Traducciones
+*.mo
+*.pot
+
+# Archivos de Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Archivos de Flask
+instance/
+.webassets-cache
+
+# Archivos de Scrapy
+.scrapy
+
+# Documentación de Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Notebooks de IPython/Jupyter
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Archivo de programación de celery beat
+celerybeat-schedule
+
+# dotenv
+.env
+.env.*
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Configuraciones de Spyder
+.spyderproject
+.spyproject
+
+# Configuraciones de Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# Datos de perfilado
+.prof
+
+# Configuraciones de Visual Studio Code
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+
+
+# Reflex
+**/.DS_Store
+**/*.pyc
+assets/external/*
+dist/*
+examples/
+.web
+.idea
+.vscode
+.coverage
+.coverage.*
+.venv
+venv
+.pyi_generator_last_run
+.pyi_generator_diff
+reflex.db
