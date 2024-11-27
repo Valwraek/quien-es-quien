@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<personajes>
+  <personaje nombre="Gabriel" edad="20" ocupación="Estudiante" />
+  <personaje nombre="Aria" edad="25" ocupación="Ingeniera" />
+  <personaje nombre="Gabriel" edad="20" ocupación="Estudiante" />
+  <personaje nombre="Aria" edad="25" ocupación="Ingeniera" />
+</personajes>
