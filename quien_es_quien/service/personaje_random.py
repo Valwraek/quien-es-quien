@@ -1,7 +1,9 @@
 import random
 
-def elegir_personaje_random(lista_personajes):
-    return random.choice(lista_personajes)
+from .cargar_personajes_desde_xml import cargar_personajes_desde_xml as lista_personajes
 
-def elegir_nombre_personaje_random(lista_personajes):
-    return random.choice(lista_personajes)['nombre']
+def elegir_personaje_random():
+    return random.choice(lista_personajes())
+
+def elegir_nombre_personaje_random():
+    return random.choice(lista_personajes())['nombre']
