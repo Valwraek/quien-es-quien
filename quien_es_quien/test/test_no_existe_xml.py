@@ -7,7 +7,7 @@ import os
     assert (comprobar_ruta() == "quien_es_quien\service\../model/personajes.xml") == True'''
 
 def test_xml_vacio():
-    assert cargar_personajes_desde_xml()
+    assert cargar_personajes_desde_xml() is not []
 
 
 
