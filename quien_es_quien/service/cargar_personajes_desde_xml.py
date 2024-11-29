@@ -25,4 +25,3 @@ def cargar_personajes_desde_xml():
 
 personajes_cargados = cargar_personajes_desde_xml()
 
-print(comprobar_ruta())

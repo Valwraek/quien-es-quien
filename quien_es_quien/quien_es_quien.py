@@ -1,6 +1,7 @@
 import reflex as rx
 from rxconfig import config
 from quien_es_quien.view.components.menu_principal import menu_principal
+from .view.tablero_personajes import tablero_personajes
 
 class State(rx.State):
     """The app state."""
@@ -9,7 +10,7 @@ class State(rx.State):
 
 
 def index() -> rx.Component:
-    return rx.container(
+    return rx.fragment(
         menu_principal(),
 
     )
@@ -21,3 +22,4 @@ app = rx.App(
     ]
 )
 app.add_page(index)
+app.add_page(tablero_personajes, route="/un_jugador")

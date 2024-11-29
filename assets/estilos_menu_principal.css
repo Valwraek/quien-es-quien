@@ -3,14 +3,14 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url("/quien-es-quien.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     color: black;
     height: 100%;
     width: 100%;
     font-family: Verdana;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/quien-es-quien.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .encabezado {
@@ -49,6 +49,9 @@
     border: 2px solid white;
     border-radius: 5px;
 }
+.caja_individual:hover{
+    color: white !important;
+}
 .caja_individual_proximamente {
     width: 300px;
     padding: 5px;
@@ -64,7 +67,7 @@
 
 
 .caja_individual_proximamente:hover {
-    color:red;
+    color: red !important;
     border-color: darkgray;
     text-decoration: line-through;
     font-size: 20px;
