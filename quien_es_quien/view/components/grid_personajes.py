@@ -6,7 +6,7 @@ from ...service.cargar_personajes_desde_xml import cargar_personajes_desde_xml
 
 
 
-def empezar_partida():
+def grid_personajes():
     personajes = cargar_personajes_desde_xml()
     lista_nombres = [personaje['nombre'] for personaje in personajes]
 
