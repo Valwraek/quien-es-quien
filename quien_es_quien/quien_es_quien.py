@@ -10,7 +10,7 @@ class State(rx.State):
 
 
 def index() -> rx.Component:
-    return rx.container(
+    return rx.fragment(
         menu_principal(),
 
     )
