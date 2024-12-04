@@ -18,7 +18,7 @@ class Interaccion(rx.State):
                          
 
     def comprobar_input(self): 
-        if not self.question or not self.question.isalpha():
+        if not self.question or not self.question.isalpha() and self.question.isspace():
             return True
         return False
        
