@@ -72,3 +72,11 @@
     text-decoration: line-through;
     font-size: 20px;
 }
+
+.footer{
+    background-color: #222;
+    padding: 1.2rem;
+    text-align: center;
+    margin-top: auto;
+    flex-shrink: 0;
+}
