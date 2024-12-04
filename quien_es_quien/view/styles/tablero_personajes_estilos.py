@@ -16,6 +16,9 @@ class estilos():
         padding="0.5em",
         box_shadow=shadow,
         width="100%",
+        color= "white",
+        background_color="#111113"
+
     )
     message_style = dict(
         padding="1em",
