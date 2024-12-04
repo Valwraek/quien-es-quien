@@ -2,16 +2,13 @@ import reflex as rx
 from rxconfig import config
 from quien_es_quien.view.components.menu_principal import menu_principal
 from .view.tablero_personajes import tablero_personajes
-
-class State(rx.State):
-    """The app state."""
-
-    ...
+from quien_es_quien.view.components.footer import footer
 
 
 def index() -> rx.Component:
     return rx.fragment(
         menu_principal(),
+        footer()
 
     )
 
