@@ -24,5 +24,5 @@ def tablero_personajes() -> rx.Component:
             )
         ),
         
-        
+        background_color="#111113"
     )

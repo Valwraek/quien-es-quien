@@ -25,9 +25,9 @@ def grid_personajes():
                             rx.card(
                                 rx.inset(
                                     rx.image(
-                                        src="https://reflex.dev/reflex_banner.png",
+                                        src=f"/personajes/{nombre}.jpg",
                                         width="100%",
-                                        height="auto",
+                                        height="6em",
                                     ),
                                     side="top",
                                     pb="current",
@@ -60,7 +60,7 @@ def grid_personajes():
                         ),
                     ),
                 ),
-                gap="1rem",
+                gap="0.5rem",
                 grid_template_columns="repeat(6, 1fr)",
             )
     )
