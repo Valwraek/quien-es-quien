@@ -18,8 +18,10 @@ class Interaccion(rx.State):
                          
 
     def comprobar_input(self): 
-        if not self.question or not self.question.isalpha() and self.question.isspace():
+        if not self.question: 
             return True
+        elif not self.question.replace(" ", "").isalpha():
+            return True 
         return False
        
     def respuesta(self):
@@ -27,10 +29,8 @@ class Interaccion(rx.State):
         self.chat_history.append((self.question, ""))
         answer = preguntar_atributos(self.question)
         self.question = ""
-        
-        for i in range(len(answer)):
 
-            self.chat_history[-1] = (
-                self.chat_history[-1][0],
-                answer[: i + 1],
-            )
+        self.chat_history[-1] = (
+            self.chat_history[-1][0],
+            answer,
+        )
