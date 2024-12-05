@@ -1,5 +1,9 @@
+import reflex as rx
 from quien_es_quien.service.personaje_random import elegir_personaje_random
 from quien_es_quien.service.cargar_personajes_desde_xml import cargar_personajes_desde_xml as cargar_xml
+
+
+# QUIERO LLORAR :D
 
 todos_los_personajes = [persona['nombre'] for persona in cargar_xml()]
 personaje = elegir_personaje_random()
@@ -21,7 +25,7 @@ def preguntar_atributos(pregunta):
     try:
         if pregunta == 'nombre':
             return "Buen intento pero no cuela."
-        
+
         return personaje[f'{pregunta}']
     except KeyError:
         return "Tienes que proporcionar un atributo válido!"

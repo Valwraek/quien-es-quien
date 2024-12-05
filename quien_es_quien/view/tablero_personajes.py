@@ -18,11 +18,11 @@ def tablero_personajes() -> rx.Component:
                         Interaccion.chat_history,
                         lambda messages: historial(messages[0], messages[1]),
                     ),
-                    style=cs.caja_pregunta_respuesta,
+                    class_name="caja-pregunta-respuesta",
                 ),
-                area_texto()
-            )
+                area_texto(),
+                class_name="caja-input-historial",
+            ),
         ),
-        
         background_color="#111113"
     )

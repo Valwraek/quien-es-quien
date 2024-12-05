@@ -1,3 +1,6 @@
+html {
+    background-color: #111113;
+}
 .caja_principal {
     display: flex;
     flex-direction: column;
@@ -79,4 +82,26 @@
     text-align: center;
     margin-top: auto;
     flex-shrink: 0;
+}
+.caja-input-historial{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.caja-pregunta-respuesta {
+    overflow-y: auto;
+    max-height: 20em;
+    width: 100%;
+    transform: translateX(10px);
+    
+}
+.caja-pregunta-respuesta::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px; 
+}
+.caja-pregunta-respuesta::-webkit-scrollbar-track {
+    background: #f1f1f1; 
 }
