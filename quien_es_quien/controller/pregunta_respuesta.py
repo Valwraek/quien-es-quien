@@ -1,7 +1,6 @@
 import reflex as rx
 from ..service.personaje_a_adivinar import preguntar_atributos
 from quien_es_quien.service.cargar_personajes_desde_xml import cargar_personajes_desde_xml as cargar_xml
-from quien_es_quien.service.personaje_a_adivinar import personaje as personaje_a_adivinar
 from quien_es_quien.service.comprobar_atributos_personaje import comprobar_atributos_personajes
 
 class Interaccion(rx.State):
@@ -25,6 +24,7 @@ class Interaccion(rx.State):
     
     def valor_question(self):
         try:
+            from quien_es_quien.service.personaje_a_adivinar import personaje as personaje_a_adivinar
             atributo = self.question
             print("comprobar:", [personaje['nombre'] for personaje in cargar_xml() if personaje[f'{atributo}'] != personaje_a_adivinar[f'{atributo}'] ])
             return [personaje['nombre'] for personaje in cargar_xml() if personaje[f'{atributo}'] != personaje_a_adivinar[f'{atributo}'] ]
