@@ -17,7 +17,7 @@ def adivinar_personaje(nombre_personaje):
         
         nombre_personaje_oculto = personaje['nombre']
         if nombre_personaje == nombre_personaje_oculto:
-             return "True"
+             return "Correcto!!!"
         else:
              return nombre_personaje_oculto
 
