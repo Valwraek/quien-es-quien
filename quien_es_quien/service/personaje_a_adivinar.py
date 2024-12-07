@@ -6,7 +6,7 @@ from quien_es_quien.service.cargar_personajes_desde_xml import cargar_personajes
 # QUIERO LLORAR :D
 
 todos_los_personajes = [persona['nombre'] for persona in cargar_xml()]
-personaje = elegir_personaje_random()
+personaje = {}
 def reiniciar_personaje_random():
     global personaje 
     personaje = elegir_personaje_random()
@@ -17,7 +17,7 @@ def adivinar_personaje(nombre_personaje):
         
         nombre_personaje_oculto = personaje['nombre']
         if nombre_personaje == nombre_personaje_oculto:
-             return True
+             return "True"
         else:
              return nombre_personaje_oculto
 
