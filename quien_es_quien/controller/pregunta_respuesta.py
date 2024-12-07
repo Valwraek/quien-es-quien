@@ -26,7 +26,7 @@ class Interaccion(rx.State):
     def valor_question(self):
         try:
             from quien_es_quien.service.personaje_a_adivinar import personaje as personaje_a_adivinar
-            atributo = self.question
+            atributo = self.question.strip()
             return [personaje['nombre'] for personaje in cargar_xml() if personaje[f'{atributo}'] != personaje_a_adivinar[f'{atributo}'] ]
         except KeyError:
             return []
@@ -51,14 +51,14 @@ class Interaccion(rx.State):
             return 
 
         if self.adivinar:
-            answer = adivinar_personaje(self.question)
+            answer = adivinar_personaje(self.question.strip())
             self.adivinar = False
         else:
             if self.question == "adivinar":
                 answer = "Di el nombre del personaje"
                 self.adivinar = True
             else:
-                answer = preguntar_atributos(self.question)
+                answer = preguntar_atributos(self.question.strip())
 
         self.chat_history[-1] = (
             self.chat_history[-1][0],
@@ -72,5 +72,5 @@ class Interaccion(rx.State):
     
     def estan_muriendo(self):
         
-        self.muertos.update(comprobar_atributos_personajes(self.question))
+        self.muertos.update(comprobar_atributos_personajes(self.question.strip()))
         self.vivos = [personaje for personaje in self.vivos if personaje not in self.muertos]
