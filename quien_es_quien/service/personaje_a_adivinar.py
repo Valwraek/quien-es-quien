@@ -3,8 +3,6 @@ from quien_es_quien.service.personaje_random import elegir_personaje_random
 from quien_es_quien.service.cargar_personajes_desde_xml import cargar_personajes_desde_xml as cargar_xml
 
 
-# QUIERO LLORAR :D
-
 todos_los_personajes = [persona['nombre'] for persona in cargar_xml()]
 personaje = {}
 def reiniciar_personaje_random():
