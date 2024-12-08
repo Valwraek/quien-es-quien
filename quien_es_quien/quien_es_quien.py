@@ -1,5 +1,4 @@
 import reflex as rx
-from rxconfig import config
 from quien_es_quien.view.components.menu_principal import menu_principal
 from .view.tablero_personajes import tablero_personajes
 from quien_es_quien.view.components.footer import footer
