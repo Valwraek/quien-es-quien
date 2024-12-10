@@ -193,6 +193,19 @@ Los módulos usados para backend en nuestro proyecto son:
 
 ## Clockify + Wakatime
 
+### Bardia
+
+![Imagen Wakatime primera semana](assets/img-readme/wakatime-bardia-semana-1.png)
+![Imagen Wakatime segunda semana](assets/img-readme/wakatime-bardia-semana-2.png)
+![Imagen Wakatime tercera semana](assets/img-readme/wakatime-bardia-semana-3.png)
+
+### Gabriel
+
+![Imagen Wakatime primera semana](assets/img-readme/wakatime-gabriel-2024-11-27.png)
+![Imagen Wakatime primera semana reporte del tiempo en cada archivo](assets/img-readme/wakatime-gabriel-2024-11-27-file-report.png)
+![Imagen Wakatime segunda semana](assets/img-readme/wakatime-gabriel-2024-12-10.png)
+![Imagen Wakatime segunda semana reporte del tiempo en cada archivo](assets/img-readme/wakatime-gabriel-2024-12-10-file-report.png)
+
 ## Justificación temporal
 
 
