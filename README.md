@@ -188,6 +188,10 @@ Los módulos usados para backend en nuestro proyecto son:
 # Pruebas
 
 ## Coverage
+![Imagen de reporte de coverage](assets/img-readme/coverage-report.png)
+
+Se ha realizado casos test de servicios, que es el lugar donde reside la lógica de nuestro negocio.  
+No sé puede realizar casos test de reflex ya que es un framework, adémas al utilizar try-except en nuestro código no sé llega al 100% de linas ejecutadas.
 
 # Análisis del tiempo invertido
 
@@ -208,6 +212,7 @@ Los módulos usados para backend en nuestro proyecto son:
 
 ## Justificación temporal
 
+La duración del proyecto ha sido de unas dos semanas y seis días. En las cuales los primeros días se utilizo para la comprensión del framework, además de estudiar como organizar el proyecto y los ultimos días para preparar la documentación y la defensa del proyecto. No sabiamos a ciencia cierta cuanto tiempo nos llevaría cada historia de usuario, por lo tanto, no se pudo estimar el tiempo exacto que tomaría el proyecto.
 
 # Conlusión
 
@@ -219,7 +224,16 @@ Hemos aprendido como funciona un Framework (Reflex) tanto sus ventajas y las dif
 
 Aunque se han relizado casos test, el orden con la que hemos llevado los casos test no ha sido adecuado ya que ha habido momentos en los que primero se ha programado y luego se han hecho los casos test, además solo se ha realizado casos test de los servicios.
 
-Se puede también hacer mejoras visuales 
+Se puede también hacer mejoras tanto visuales como el modelo que guarda las características de los personajes.
 
 ## Dificultades
 
+Las dificultades encontradas en este proyecto ha residido en la comprensión del framework con el uso de los conocimientos adquiridos en clase.
+
+Ejemplos:
+- Importaciones relativas 
+- Uso de archivos css 
+- Fallos con la conexión entre frontend y backend
+- Intercambio de información entre clases
+- Funciones async vs funciones síncronas
+- La comprensión de clases
