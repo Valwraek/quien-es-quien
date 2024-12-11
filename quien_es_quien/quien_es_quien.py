@@ -15,7 +15,10 @@ def index() -> rx.Component:
 app = rx.App(
     stylesheets=[
         "/estilos_menu_principal.css",
-    ]
+    ],
+    theme=rx.theme(
+        appearance="dark",
+    )
 )
 app.add_page(index)
 app.add_page(tablero_personajes, route="/un_jugador")
