@@ -40,7 +40,6 @@ class Interaccion(rx.State):
         return False
        
     def respuesta(self):
-
         self.chat_history.append((self.question, ""))
 
         if self.question == "reiniciar":
@@ -48,7 +47,7 @@ class Interaccion(rx.State):
             self.todos_vivos()
             self.chat_history = []
             reiniciar_personaje_random()
-            return 
+            return
 
         if self.adivinar:
             answer = adivinar_personaje(self.question.strip())
@@ -60,10 +59,7 @@ class Interaccion(rx.State):
             else:
                 answer = preguntar_atributos(self.question.strip())
 
-        self.chat_history[-1] = (
-            self.chat_history[-1][0],
-            answer,
-        )
+        self.chat_history[-1] = (self.question, answer)
 
     def todos_vivos(self):
         
