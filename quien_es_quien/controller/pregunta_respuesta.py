@@ -22,15 +22,7 @@ class Interaccion(rx.State):
                 self.respuesta()
                 self.estan_muriendo()
                 self.question = ""
-    
-    def valor_question(self):
-        try:
-            from quien_es_quien.service.personaje_a_adivinar import personaje as personaje_a_adivinar
-            atributo = self.question.strip()
-            return [personaje['nombre'] for personaje in cargar_xml() if personaje[f'{atributo}'] != personaje_a_adivinar[f'{atributo}'] ]
-        except KeyError:
-            return []
-    
+  
 
     def comprobar_input(self): 
         if not self.question: 
