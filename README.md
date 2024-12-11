@@ -193,6 +193,15 @@ Los módulos usados para backend en nuestro proyecto son:
 Se ha realizado casos test de servicios, que es el lugar donde reside la lógica de nuestro negocio.  
 No sé puede realizar casos test de reflex ya que es un framework, adémas al utilizar try-except en nuestro código no sé llega al 100% de linas ejecutadas.
 
+## Test de unidad
+
+Es una técnica de prueba de software que nos permite comprobar funciones o métodos de manera individual, en nuestro caso tenemos 9 test de unidad:
+![Imagen de test de unidad](assets/img-readme/test-de-unidad.png)
+
+## Test de integridad
+
+No se ha implementado ningún test de integración
+
 # Análisis del tiempo invertido
 
 ## Clockify + Wakatime
