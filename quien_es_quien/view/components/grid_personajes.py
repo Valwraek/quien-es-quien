@@ -75,7 +75,7 @@ def grid_personajes():
                                     pb="current",
                                 ),
                                 rx.text(
-                                    f"{nombre} Muerto.",
+                                    "Muerto",
                                     text_align="center",
                                     font_weight="bold",
                                 ),
