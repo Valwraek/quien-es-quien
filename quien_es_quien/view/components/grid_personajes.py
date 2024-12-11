@@ -24,8 +24,8 @@ def grid_personajes():
                                 rx.inset(
                                     rx.image(
                                         src=f"/personajes/{nombre}.jpg",
-                                        width="100%",
-                                        height="6em",
+                                        width="4.6rem",
+                                        height="5.5rem",
                                     ),
                                     side="top",
                                     pb="current",
@@ -34,7 +34,14 @@ def grid_personajes():
                                     nombre,
                                     text_align="center",
                                     font_weight="bold",
+                                    height="0.5rem",
+                                    
                                 ),
+                                display="flex",
+                                justify_content="center",
+                                align_items="center",
+                                flex_direction="column",
+                                width="4.6rem",
                             ),
                             key=f"vivo-{nombre}"
                         ),
@@ -54,6 +61,7 @@ def grid_personajes():
                                 "?",
                                 text_align="center",
                                 font_weight="bold",
+                                height="0.5rem",
                             ),
                             on_click=Elegir_personaje.personaje_seleccionado,
                             key=f"oculto-{nombre}"
@@ -68,8 +76,8 @@ def grid_personajes():
                                 rx.inset(
                                     rx.image(
                                         src=f"/skull.png",
-                                        width="100%",
-                                        height="6em",
+                                        width="4.6rem",
+                                        height="5.5rem",
                                     ),
                                     side="top",
                                     pb="current",
@@ -78,7 +86,14 @@ def grid_personajes():
                                     "Muerto",
                                     text_align="center",
                                     font_weight="bold",
+                                    height="0.5rem",
                                 ),
+                                display="flex",
+                                justify_content="center",
+                                align_items="center",
+                                flex_direction="column",
+                                width="4.6rem",
+                                
                             ),
                             key=f"muerto-{nombre}"
                         ),
