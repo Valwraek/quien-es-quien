@@ -26,10 +26,8 @@ class Interaccion(rx.State):
 
     def comprobar_input(self): 
         
-        if not self.question: 
+        if not self.question.replace(" ", "").isalpha(): 
             return True
-        elif not self.question.replace(" ", "").isalpha():
-            return True 
         return False
        
     def respuesta(self):
