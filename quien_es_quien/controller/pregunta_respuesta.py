@@ -2,7 +2,7 @@ import reflex as rx
 from ..service.personaje_a_adivinar import preguntar_atributos, adivinar_personaje, reiniciar_personaje_random
 from quien_es_quien.service.cargar_personajes_desde_xml import cargar_personajes_desde_xml as cargar_xml
 from quien_es_quien.service.comprobar_atributos_personaje import comprobar_atributos_personajes
-from quien_es_quien.controller.elegir_personaje import Elegir_personaje
+
 class Interaccion(rx.State):
 
     question: str
@@ -25,6 +25,7 @@ class Interaccion(rx.State):
   
 
     def comprobar_input(self): 
+        
         if not self.question: 
             return True
         elif not self.question.replace(" ", "").isalpha():
@@ -32,6 +33,7 @@ class Interaccion(rx.State):
         return False
        
     def respuesta(self):
+        
         self.chat_history.append((self.question, ""))
 
         if self.question == "reiniciar":
