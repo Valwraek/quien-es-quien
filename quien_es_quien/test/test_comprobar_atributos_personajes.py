@@ -5,13 +5,13 @@ def test_atributo_coincide():
 
     personaje_a_adivinar.personaje = {
         "nombre": "Susan",
-        "genero": "mujer",
-        "pelo": "blanco",
-        "gafas": "False",
-        "pendiente": "False"
+        "mujer": "Es mujer",
+        "blanco": "Tiene el pelo blanco",
+        "gafa": "No tiene gafa",
+        "pendiente": "No tiene pendientes"
     }
     
-    resultado = comprobar_atributos_personajes("pelo")
+    resultado = comprobar_atributos_personajes("blanco")
     assert "Susan" not in resultado, "Error: Susan no debería estar en el resultado."
     assert "David" in resultado, "Error: David debería estar en el resultado."
 
@@ -19,8 +19,8 @@ def test_atributo_inexistente():
 
     personaje_a_adivinar.personaje = {
         "nombre": "Max",
-        "genero": "hombre",
-        "pelo": "negro"
+        "hombre": "hombre",
+        "negro": "Tiene el pelo negro"
     }
     
     resultado = comprobar_atributos_personajes("atributoInvalido")
