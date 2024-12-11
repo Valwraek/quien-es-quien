@@ -96,7 +96,7 @@ html {
     max-height: 20em;
     width: 100%;
     transform: translateX(10px);
-    
+    scroll-behavior: smooth;
 }
 .caja-pregunta-respuesta::-webkit-scrollbar {
     width: 8px; 
@@ -104,4 +104,15 @@ html {
 }
 .caja-pregunta-respuesta::-webkit-scrollbar-track {
     background: #f1f1f1; 
+}
+
+/* Personaliza el pulgar (thumb) de la barra de desplazamiento */
+.caja-pregunta-respuesta::-webkit-scrollbar-thumb {
+    background: #888; /* Color del pulgar */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Cambia el color del pulgar cuando se está desplazando */
+.caja-pregunta-respuesta::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del pulgar al pasar el ratón por encima */
 }
