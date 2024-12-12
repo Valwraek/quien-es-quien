@@ -23,5 +23,3 @@ def cargar_personajes_desde_xml():
     except FileNotFoundError:
         return "Archivo no encontrado"
 
-personajes_cargados = cargar_personajes_desde_xml()
-
