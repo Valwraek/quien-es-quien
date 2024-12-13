@@ -16,7 +16,7 @@
     - [**Historias de usuario**](#historias-de-usuario)
     - [**Arquitectura de la aplicación**](#arquitectura-de-la-aplicación)
 -  [**Diseño**](#diseño)
-    - [**Diagrama de Componentes**](#diagrama_de_componentes)
+    - [**Diagrama de Componentes**](#diagrama-de-componentes)
 - [**Implementación**](#implementación)
     - [**Tecnologías y Herramientas utilizadas**](#tecnologías-y-herramientas-utilizadas)
     - [**Backend**](#backend)
@@ -24,11 +24,12 @@
 - [**Pruebas**](#pruebas)
     - [**Coverage**](#coverage)
     - [**Test de unidad**](#test-de-unidad)
-    - [**Test de integración**](#test-de-integracion)
-- [**Análisis del tiempo invertido**](#analisis-del-tiempo)
-    - [**Clockify + Wakatime**](#clockify-+-wakatime)
-    - [**Justificación temporal**](#justificacion-temporal)
-- [**Conlusión**](#conclusion)
+    - [**Test de integración**](#test-de-integridad)
+- [**Análisis del tiempo invertido**](#análisis-del-tiempo-invertido)
+    - [**Wakatime**](#wakatime)
+    - [**Justificación temporal**](#justificación-temporal)
+- [**Uso de la IA**](#uso-de-la-ia)
+- [**Conlusión**](#conclusión)
     - [**Posibles mejoras**](#posibles-mejoras)
     - [**Dificultades**](#dificultades)
 
@@ -204,13 +205,15 @@ No se ha implementado ningún test de integración
 
 # Análisis del tiempo invertido
 
-## Clockify + Wakatime
+## Wakatime
 
 ### Bardia
 
-![Imagen Wakatime primera semana](assets/img-readme/wakatime-bardia-semana-1.png)
-![Imagen Wakatime segunda semana](assets/img-readme/wakatime-bardia-semana-2.png)
-![Imagen Wakatime tercera semana](assets/img-readme/wakatime-bardia-semana-3.png)
+![Tiempo total invertido](assets/img-readme/tiempo-total.png)
+![Proyectos Wakatime](assets/img-readme/proyectos-wakatime.png)
+Como podemos observar en la última imagen, existen diferentes proyectos. Proyecto-prueba y sudoku fueron fueron test que se intento realizar por separado para hacer unas pruebas.  
+El css es un proyecto para comprender como funciona flex y grid para implementarlo en nuestro proyecto. Esto corresponde a documentación al igual que el proyecto chat-app-reflex.  
+Por último, tenemos el proyecto quien-es-quien donde se ha llevado acabo nuestro proyecto en la que encontraremos la mayor parte de nuestro trabajo.
 
 ### Gabriel
 
@@ -219,11 +222,33 @@ No se ha implementado ningún test de integración
 ![Imagen Wakatime segunda semana](assets/img-readme/wakatime-gabriel-2024-12-10.png)
 ![Imagen Wakatime segunda semana reporte del tiempo en cada archivo](assets/img-readme/wakatime-gabriel-2024-12-10-file-report.png)
 
+### Tiempo total
+Tiempo total en horas.  
+![Gráfica representativa del proyecto con arquitectura  MVC más servicios](assets/img-readme/tiempo-total-report.png)
 ## Justificación temporal
 
-La duración del proyecto ha sido de unas dos semanas y seis días. En las cuales los primeros días se utilizo para la comprensión del framework, además de estudiar como organizar el proyecto y los ultimos días para preparar la documentación y la defensa del proyecto. No sabiamos a ciencia cierta cuanto tiempo nos llevaría cada historia de usuario, por lo tanto, no se pudo estimar el tiempo exacto que tomaría el proyecto.
+La duración del proyecto ha sido de unas dos semanas y seis días. En las cuales los primeros días se utilizo para la comprensión del framework, además de estudiar como organizar el proyecto y los ultimos días para preparar la documentación y la defensa del proyecto. No sabiamos a ciencia cierta cuanto tiempo nos llevaría cada historia de usuario, por lo tanto, no se pudo estimar el tiempo exacto que tomaría el proyecto.  
 
-# Conlusión
+# Uso de la IA
+
+1. ¿Qué herramienta de IA generativa usaste (nombre y versión)?
+    - La herramienta de IA generativa usamos fue ChatGPT 4-o
+2. ¿Qué tipos de prompts proporcionaste?
+    - En nuestro caso se le pidio a ChatGPT darnos una imagen para usar de fondo que representara nuestro proyecto web para el juego ¿Quién es Quién?
+    - En la última refactorización de XML a ChatGPT se le paso el XML completo y se le pidio que cambiase atributos pelo="color" por color="color" para todos los personajes, para no hacerlo de manera manual.
+    - Explicación de que es la variable ``__filename__`` y como solucionar error en comprobar ruta de XML.
+    - Cuando nos encontrabamos con un bug que no eramos capaces de resolver, se le pedía ayuda para entender cual era el problema.
+    - Ayuda con clases ::-webkit-scrollbar para su implementación en el historial de Chat
+3. ¿Para qué usaste la herramienta?
+    - Para explicación de documentación reflex.
+    - Tareas repetitivas relacionado con XML
+    - Generación de imagen
+    - Bugs incapaces de dar solución después de horas de intento
+4. ¿Cómo has utilizado o cambiado la salida de la IA generativa?
+    - En caso de la generación de imagen, refactorización de XML y la ayuda con ::-webkit-scrollbar, la salida no sé modificó.
+    - En los demás casos las soluciones que nos podia ofrecer ChatGPT no eran validas a nuestro proyecto, pero nos daba pistas por donde podemos tirar y nos daba ejemplos de como usar componentes de Reflex para su mejor comprensión.
+
+# Conclusión
 
 En este proyecto hemos puesto en práctica los conocimientos adquiridos durante los primeros 2 meses y medio enseñados en las clases de programación y entornos de desarrollo
 
