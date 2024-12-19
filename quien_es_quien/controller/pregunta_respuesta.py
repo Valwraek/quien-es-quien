@@ -60,5 +60,7 @@ class Interaccion(rx.State):
     
     def estan_muriendo(self):
         
+        if self.question.strip() == "nombre":
+            return 
         self.muertos.update(comprobar_atributos_personajes(self.question.strip()))
         self.vivos = [personaje for personaje in self.vivos if personaje not in self.muertos]
