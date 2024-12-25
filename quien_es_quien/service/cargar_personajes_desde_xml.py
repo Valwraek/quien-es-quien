@@ -22,4 +22,5 @@ def cargar_personajes_desde_xml():
         return personajes
     except FileNotFoundError:
         return "Archivo no encontrado"
-
+    
+todos_personajes = cargar_personajes_desde_xml()
