@@ -1,5 +1,4 @@
 import reflex as rx
-from ...service.cargar_personajes_desde_xml import cargar_personajes_desde_xml as cargar_xml
 from ...controller.elegir_personaje import Elegir_personaje
 from quien_es_quien.controller.pregunta_respuesta import Interaccion
 

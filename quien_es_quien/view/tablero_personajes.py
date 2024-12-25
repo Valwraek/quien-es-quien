@@ -3,7 +3,6 @@ from .components.grid_personajes import grid_personajes
 from .components.area_texto import area_texto
 from .components.historial_mensajes import historial
 from quien_es_quien.controller.pregunta_respuesta import Interaccion 
-from quien_es_quien.view.styles.tablero_personajes_estilos import estilos as cs
 from ..controller.elegir_personaje import Elegir_personaje
 
 def tablero_personajes() -> rx.Component:
