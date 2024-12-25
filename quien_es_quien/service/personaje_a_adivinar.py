@@ -1,16 +1,16 @@
 import reflex as rx
 from quien_es_quien.service.personaje_random import elegir_personaje_random
-from quien_es_quien.service.cargar_personajes_desde_xml import cargar_personajes_desde_xml as cargar_xml
+from quien_es_quien.service.cargar_personajes_desde_xml import todos_personajes as cargar_personajes
 
 
-todos_los_personajes = [persona['nombre'] for persona in cargar_xml()]
+todos_nombres_personajes = [persona['nombre'] for persona in cargar_personajes]
 personaje = {}
 def reiniciar_personaje_random():
     global personaje 
     personaje = elegir_personaje_random()
 
 def adivinar_personaje(nombre_personaje):
-        if nombre_personaje not in todos_los_personajes:
+        if nombre_personaje not in todos_nombres_personajes:
              return "Tienes que proporcionar un nombre del personaje!"
         
         nombre_personaje_oculto = personaje['nombre']

@@ -1,6 +1,6 @@
 import random
 
-from .cargar_personajes_desde_xml import cargar_personajes_desde_xml as lista_personajes
+from .cargar_personajes_desde_xml import todos_personajes
 
 def elegir_personaje_random():
-    return random.choice(lista_personajes())
+    return random.choice(todos_personajes)
