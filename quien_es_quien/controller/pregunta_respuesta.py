@@ -1,13 +1,13 @@
 import reflex as rx
 from ..service.personaje_a_adivinar import preguntar_atributos, adivinar_personaje, reiniciar_personaje_random
-from quien_es_quien.service.cargar_personajes_desde_xml import cargar_personajes_desde_xml as cargar_xml
+from quien_es_quien.service.cargar_personajes_desde_xml import todos_personajes as cargar_personajes
 from quien_es_quien.service.comprobar_atributos_personaje import comprobar_atributos_personajes
 
 class Interaccion(rx.State):
 
     question: str
     chat_history: list[tuple[str, str]]
-    vivos = list = [personaje['nombre'] for personaje in cargar_xml()]
+    vivos = list = [personaje['nombre'] for personaje in cargar_personajes]
     muertos = set = set()
     adivinar = bool = False
 
@@ -56,7 +56,7 @@ class Interaccion(rx.State):
     def todos_vivos(self):
         
         self.muertos = set()      
-        self.vivos = [personaje['nombre'] for personaje in cargar_xml()]
+        self.vivos = [personaje['nombre'] for personaje in cargar_personajes]
     
     def estan_muriendo(self):
         
