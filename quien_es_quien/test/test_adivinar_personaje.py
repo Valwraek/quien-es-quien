@@ -26,9 +26,9 @@ def test_adivinar_personaje_incorrecto():
     reiniciar_personaje_random()
 
     from quien_es_quien.service.personaje_a_adivinar import personaje
-    from quien_es_quien.service.cargar_personajes_desde_xml import cargar_personajes_desde_xml as cargar_xml
+    from quien_es_quien.service.cargar_personajes_desde_xml import todos_personajes as cargar_personajes
 
-    personajes_disponibles = [dict_personaje for dict_personaje in cargar_xml() if dict_personaje != personaje]
+    personajes_disponibles = [dict_personaje for dict_personaje in cargar_personajes if dict_personaje != personaje]
     personaje_incorrecto = personajes_disponibles[0]['nombre']
 
     assert adivinar_personaje(personaje_incorrecto) == personaje['nombre']

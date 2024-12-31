@@ -1,508 +1,205 @@
 <?xml version='1.0' encoding='utf-8'?>
-<personajes>
-  <personaje 
-    nombre="Susan" 
-    mujer="Es mujer" 
-    hombre="No es un hombre"  
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="Tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Claire" 
-    mujer="Es mujer" 
-    hombre="No es un hombre" 
-    pelo="naranja" 
-    gafa="Si tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="Si tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="Tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="David" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="Si tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="azul" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="Tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Anne" 
-    mujer="Es mujer" 
-    hombre="No es un hombre"  
-    gafa="No tiene gafa" 
-    pendiente="Si tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="Tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Robert" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="azul" 
-    sonrojado="Si está sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="Si tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="Tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Anita" 
-    mujer="Es mujer" 
-    hombre="No es un hombre"  
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="Si tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="azul" 
-    sonrojado="Si está sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="Tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Joe" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="Si tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="Tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="George" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="Si tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="azul" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="Si tiene la nariz grande"
-    blanco="Tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Bill" 
-    hombre="Es hombre" 
-    mujer="No es una mujer" 
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="Si tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="Si está sonrojad@" 
-    calvo="Si está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="Tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Alfred" 
-    hombre="Es hombre" 
-    mujer="No es una mujer" 
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="Si tiene bigote" 
-    ojos="azul" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="Si tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="Tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Max" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="Si tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="Tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Tom" 
-    hombre="Es hombre" 
-    mujer="No es una mujer" 
-    gafa="Si tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="azul" 
-    sonrojado="No esta sonrojad@" 
-    calvo="Si está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="Tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Alex" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="Si tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="Tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Sam" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="Si tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="Si está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="Tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Richard" 
-    hombre="Es hombre" 
-    mujer="No es una mujer" 
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="Si tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="Si está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="Tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Paul" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="Si tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="azul" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="Tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Maria" 
-    mujer="Es mujer" 
-    hombre="No es un hombre"  
-    gafa="No tiene gafa" 
-    pendiente="Si tiene pendientes" 
-    sombrero="Si tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="Tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Frans" 
-    hombre="Es hombre" 
-    mujer="No es una mujer" 
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="Tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Herman" 
-    hombre="Es hombre" 
-    mujer="No es una mujer" 
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="Si está calvo" 
-    narizGrande="Si tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="Tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Bernard" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="Si tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="Si tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="Tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Philip" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="Si tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="Si está sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="Tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Eric" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="Si tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="Tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Charles" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="Si tiene bigote" 
-    ojos="marron" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="No tiene la nariz grande"
-    blanco="No tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="Tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-  <personaje 
-    nombre="Peter" 
-    hombre="Es hombre" 
-    mujer="No es una mujer"  
-    gafa="No tiene gafa" 
-    pendiente="No tiene pendientes" 
-    sombrero="No tiene sombrero" 
-    coleta="No tiene coleta" 
-    barba="No tiene barba" 
-    bigote="No tiene bigote" 
-    ojos="azul" 
-    sonrojado="No esta sonrojad@" 
-    calvo="No está calvo" 
-    narizGrande="Si tiene la nariz grande"
-    blanco="Tiene el pelo blanco"
-    naranja="No tiene el pelo naranja"
-    rubio="No tiene el pelo rubio"
-    negro="No tiene el pelo negro"
-    castaño="No tiene el pelo castaño"
-    pelirrojo="No tiene el pelo pelirrojo" 
-  />
-</personajes>
+<data>
+  <claves>
+    <clave>nombre</clave>
+    <clave>mujer</clave>
+    <clave>hombre</clave>
+    <clave>ojos</clave>
+    <clave>gafa</clave>
+    <clave>pendiente</clave>
+    <clave>sombrero</clave>
+    <clave>coleta</clave>
+    <clave>barba</clave>
+    <clave>bigote</clave>
+    <clave>sonrojado</clave>
+    <clave>calvo</clave>
+    <clave>narizGrande</clave>
+    <clave>blanco</clave>
+    <clave>naranja</clave>
+    <clave>rubio</clave>
+    <clave>negro</clave>
+    <clave>castaño</clave>
+    <clave>pelirrojo</clave>
+  </claves>
+  <personajes>
+    <personaje>
+      <nombre>Susan</nombre>
+      <mujer>Es mujer</mujer>
+      <ojos>marron</ojos>
+      <blanco>Tiene el pelo blanco</blanco>
+    </personaje>
+    <personaje>
+      <nombre>Claire</nombre>
+      <mujer>Es mujer</mujer>
+      <gafa>Si tiene gafa</gafa>
+      <sombrero>Si tiene sombrero</sombrero>
+      <ojos>marron</ojos>
+      <naranja>Tiene el pelo naranja</naranja>
+    </personaje>
+    <personaje>
+      <nombre>David</nombre>
+      <hombre>Es hombre</hombre>
+      <barba>Si tiene barba</barba>
+      <ojos>azul</ojos>
+      <rubio>Tiene el pelo rubio</rubio>
+    </personaje>
+    <personaje>
+      <nombre>Anne</nombre>
+      <mujer>Es mujer</mujer>
+      <pendiente>Si tiene pendientes</pendiente>
+      <ojos>marron</ojos>
+      <negro>Tiene el pelo negro</negro>
+    </personaje>
+    <personaje>
+      <nombre>Robert</nombre>
+      <hombre>Es hombre</hombre>
+      <sonrojado>Si está sonrojad@</sonrojado>
+      <narizGrande>Si tiene la nariz grande</narizGrande>
+      <castaño>Tiene el pelo castaño</castaño>
+    </personaje>
+    <personaje>
+      <nombre>Anita</nombre>
+      <mujer>Es mujer</mujer>
+      <coleta>Si tiene coleta</coleta>
+      <ojos>azul</ojos>
+      <rubio>Tiene el pelo rubio</rubio>
+      <sonrojado>Si está sonrojad@</sonrojado>
+    </personaje>
+    <personaje>
+      <nombre>Joe</nombre>
+      <hombre>Es hombre</hombre>
+      <gafa>Si tiene gafa</gafa>
+      <ojos>marron</ojos>
+      <rubio>Tiene el pelo rubio</rubio>
+    </personaje>
+    <personaje>
+      <nombre>George</nombre>
+      <hombre>Es hombre</hombre>
+      <sombrero>Si tiene sombrero</sombrero>
+      <ojos>azul</ojos>
+      <narizGrande>Si tiene la nariz grande</narizGrande>
+      <blanco>Tiene el pelo blanco</blanco>
+    </personaje>
+    <personaje>
+      <nombre>Bill</nombre>
+      <hombre>Es hombre</hombre>
+      <barba>Si tiene barba</barba>
+      <sonrojado>Si está sonrojad@</sonrojado>
+      <calvo>Si está calvo</calvo>
+      <pelirrojo>Es pelirrojo</pelirrojo>
+    </personaje>
+    <personaje>
+      <nombre>Alfred</nombre>
+      <hombre>Es hombre</hombre>
+      <bigote>Si tiene bigote</bigote>
+      <ojos>azul</ojos>
+      <narizGrande>Si tiene la nariz grande</narizGrande>
+      <pelirrojo>Es pelirrojo</pelirrojo>
+    </personaje>
+    <personaje>
+      <nombre>Max</nombre>
+      <hombre>Es hombre</hombre>
+      <bigote>Si tiene bigote</bigote>
+      <ojos>marron</ojos>
+      <negro>Tiene el pelo negro</negro>
+    </personaje>
+    <personaje>
+      <nombre>Tom</nombre>
+      <hombre>Es hombre</hombre>
+      <gafa>Si tiene gafa</gafa>
+      <calvo>Si está calvo</calvo>
+      <castaño>Tiene el pelo castaño</castaño>
+    </personaje>
+    <personaje>
+      <nombre>Alex</nombre>
+      <hombre>Es hombre</hombre>
+      <bigote>Si tiene bigote</bigote>
+      <ojos>marron</ojos>
+      <negro>Tiene el pelo negro</negro>
+    </personaje>
+    <personaje>
+      <nombre>Sam</nombre>
+      <hombre>Es hombre</hombre>
+      <gafa>Si tiene gafa</gafa>
+      <calvo>Si está calvo</calvo>
+      <blanco>Tiene el pelo blanco</blanco>
+    </personaje>
+    <personaje>
+      <nombre>Richard</nombre>
+      <hombre>Es hombre</hombre>
+      <barba>Si tiene barba</barba>
+      <calvo>Si está calvo</calvo>
+      <castaño>Tiene el pelo castaño</castaño>
+    </personaje>
+    <personaje>
+      <nombre>Maria</nombre>
+      <mujer>Es mujer</mujer>
+      <pendiente>Si tiene pendientes</pendiente>
+      <sombrero>Si tiene sombrero</sombrero>
+      <ojos>marron</ojos>
+      <castaño>Tiene el pelo castaño</castaño>
+    </personaje>
+    <personaje>
+      <nombre>Frans</nombre>
+      <hombre>Es hombre</hombre>
+      <pelirrojo>Es pelirrojo</pelirrojo>
+    </personaje>
+    <personaje>
+      <nombre>Herman</nombre>
+      <hombre>Es hombre</hombre>
+      <calvo>Si está calvo</calvo>
+      <narizGrande>Si tiene la nariz grande</narizGrande>
+      <pelirrojo>Es pelirrojo</pelirrojo>
+    </personaje>
+    <personaje>
+      <nombre>Bernard</nombre>
+      <hombre>Es hombre</hombre>
+      <sombrero>Si tiene sombrero</sombrero>
+      <narizGrande>Si tiene la nariz grande</narizGrande>
+      <castaño>Tiene el pelo castaño</castaño>
+    </personaje>
+    <personaje>
+      <nombre>Philip</nombre>
+      <hombre>Es hombre</hombre>
+      <barba>Si tiene barba</barba>
+      <sonrojado>Si está sonrojad@</sonrojado>
+      <ojos>marron</ojos>
+    </personaje>
+
+
+
+    <personaje>
+      <nombre>Paul</nombre>
+      <hombre>Es hombre</hombre>
+      <gafa>Si tiene gafa</gafa>
+      <ojos>azul</ojos>
+      <blanco>Tiene el pelo blanco</blanco>
+    </personaje>
+
+    <personaje>
+      <nombre>Eric</nombre>
+      <hombre>Es hombre</hombre>
+      <sombrero>Si tiene sombrero</sombrero>
+      <ojos>marron</ojos>
+      <rubio>Tiene el pelo rubio</rubio>
+    </personaje>
+
+    <personaje>
+      <nombre>Charles</nombre>
+      <hombre>Es hombre</hombre>
+      <ojos>marron</ojos>
+      <bigote>Tiene bigote</bigote>
+      <rubio>Tiene el pelo rubio</rubio>
+    </personaje>
+
+    <personaje>
+      <nombre>Peter</nombre>
+      <hombre>Es hombre</hombre>
+      <ojos>azul</ojos>
+      <blanco>Tiene el pelo blanco</blanco>
+      <narizGrande>Tiene la nariz grande</narizGrande>
+    </personaje>
+
+ </personajes>
+
+</data>
